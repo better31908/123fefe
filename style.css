@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Josefin+Sans:wght@500&family=Noto+Sans:ital,wght@1,300&family=Space+Grotesk:wght@500&display=swap');
+
+body {
+    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: rgb(15, 1, 36);
+}
+
+main {
+    display: flex;
+}
+
+.crug{
+    flex-grow: 1;
+}
+
+img {
+    display: flex;
+
+}
+
+.button{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(#fff);
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    transition: color .2s linear;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    transition: 0.45s;
+    border-style: hidden;
+}
+
+.button:hover {
+    background-color: rgb(74, 3, 225);
+    font-size: 35px;
+    font-style: normal;
+    color: rgb(255, 255, 255)
+}
+
+.button:active {
+    background-color: rgb(255, 255, 255);
+    font-size: 50px;
+    color: rgb(139, 90, 244);
+    d
+}
+
+
+
+.nav__link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color .2s linear;
+}
+
+.nav__link:hover {
+    color: rgb(226, 241, 54);
+}
+
+
+
+.button2 {
+    background: none;
+    border-color: rgb(255, 255, 255);
+    cursor: pointer;
+    height: 100px;
+    width: 290px;
+    border-style: hidden;
+}
+
+.py {
+    background-color: rgb(255, 255, 255);
+}
+
+
+.moment {
+    font-style: italic;
+    color: rgb(226, 241, 54);
+}
+
+.zag {
+    color: #fff;
+}
+
+.otd {
+    color: #fff;
+}
+
+.h4 {
+    color: #fff;
+}
+
+
+
+
